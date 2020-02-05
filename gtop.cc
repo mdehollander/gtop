@@ -137,8 +137,8 @@ tegrastats parse_tegrastats(const char * buffer) {
     case TK1: // TODO
       break;
     case AGX:
-      get_cpu_stats_agx(ts, stats.at(5));
-      get_gpu_stats(ts, stats.at(9));
+      get_cpu_stats_agx(ts, stats.at(9));
+      get_gpu_stats(ts, stats.at(13));
       break;
   }
 
